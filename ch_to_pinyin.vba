@@ -416,6 +416,6 @@ End Function
 
 Function GetPY(str)
 For i = 1 To Len(str)
-GetPY = GetPY & pinyin(Mid(str, i, 1))
+    GetPY = GetPY & " " & pinyin(Mid(str, i, 1))
 Next i
 End Function
